@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Help</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/help.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <!-- ADVERTISEMENT -->
+    <div class="advertisement">
+        <img src="assets/image/not1.svg" class="n4" alt="Error">
+        <img src="assets/image/not2.png" class="n3" alt="Error">
+        <img src="assets/image/not3.png" class="n2" alt="Error">
+        <img src="assets/image/not1.png" class="n1" alt="Error">   
+        <h1 class="title">SMART TECH</h1>
+        <p class="text1"><img src="assets/icon/Vector.svg" class="img1 mr-md-2 mr-sm-2"  alt="Error">Get 30 % Off On <span class="">Selected Items</span></p>
+        <button class="btn-light" onclick="document.location='//www.smarttech.com/en/education' " type="button">Buy now</button>
+    </div>
+    <!-- SELECTOR -->
+    <div class="selector">
+        <div class="dropdown">
+            <p class="lang dropdown-toggle" data-toggle="dropdown">ENGLISH</p>
+             <div class="dropdown-menu">
+               <a class="dropdown-item" href="#">Русский</a>
+               <a class="dropdown-item" href="#">O'zbek</a>
+             </div>
+           </div>
+           <div class="dropdown-two">
+             <p class="uzs  dropdown-toggle" data-toggle="dropdown">UZS</p>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">USD</a>
+                <a class="dropdown-item" href="#">EUR</a>
+              </div>
+            </div>
+            <a href="login-register.html" class="log">Log In / Register</a>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md ">
+      <a class="navbar-brand" href="index.html">UNISHOP</a>
+      <div class="input-group">
+        <input type="text" class="search form-control" placeholder="  Search here...">
+        <div class="input-group-append">
+          <button class="btn" type="submit"><i class="fas fa-search"></i></button> 
+        </div>
+      </div>
+      <div class="dropdown-four">
+        <button type="button" class="btn" data-toggle="dropdown"><i class="far fa-user" id="user"></i></button>
+        <div class="dropdown-menu dropdown-menu-right">
+       <a class="dropdown-item" href="Message.html"><i class="far fa-comment-alt"></i> Messages</a>
+       <a class="dropdown-item" href="#"><i class="far fa-heart"></i> Wishlist</a>
+       <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt"></i> Log out</a>
+     </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="fas fa-align-justify w-100"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#" id="wish"><i class="far fa-heart"></i> Wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="location" data-toggle="modal" data-target="#myModal" ><i class="fas fa-map-marker-alt"></i> Select a region</a>
+          </li>
+          <li class="nav-item ml-3" id="button">
+          <div class="dropdown-three">
+            <button type="button" class="btn" data-toggle="dropdown"><i class="far fa-user" id="user"></i></button>
+            <div class="dropdown-menu dropdown-menu-right">
+           <a class="dropdown-item" href="Message.html"><i class="far fa-comment-alt"></i> Messages</a>
+           <a class="dropdown-item" href="AddProduct.html"> <i class="fa fa-plus-circle" aria-hidden="true"></i>  Add</a>
+           <a class="dropdown-item" href="login-register.html"><i class="fas fa-sign-in-alt"></i> Log out</a>
+         </div>
+          </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" id="acc" href="#"> My Account</a>
+          </li>   
+        
+        </ul> 
+        <div class="dropdown">
+              <p class="lang dropdown-toggle" data-toggle="dropdown">English</p>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#">Русский</a>
+                 <a class="dropdown-item" href="#">O'zbek</a>
+               </div>
+             </div>
+             <div class="dropdown-two">
+              <p class="uzs  dropdown-toggle" data-toggle="dropdown">UZS</p>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#">USD</a>
+                 <a class="dropdown-item" href="#">EUR</a>
+               </div>
+             </div>
+
+              <div class="tab-selector">
+              <ul class="nav">
+                <li class="nav-item"><a href="forSale" data-toggle="tab" class="nav-link active">For Sale</a></li>
+                <li class="nav-item"><a href="forRent" data-toggle="tab" class="nav-link">For Rent</a></li>
+              </ul>
+              </div>
+              <div class="container-fluid mt-3">
+                <div class="tab-content">
+                  <div class="tab-pane active" id="forSale">
+                    <section>
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="card-body">
+                            <a href="#" class="card-link ml-4">
+                              Buildings
+                            </a>
+                            <ul class="mt-3">
+                              <li><a href="ForSale.html">Flat, Home</a></li>
+                              <li><a href="ForSale.html">Office</a></li>
+                              <li><a href="ForSale.html">Dacha</a></li>
+                              <li><a href="ForSale.html">Courtyard</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                        <div class="col-12">
+                          <div class="card-body">
+                            <a href="#" class="card-link ml-4">
+                              Transport
+                            </a>
+                            <ul class="mt-3">
+                              <li><a href="ForSale.html">Trucks</a></li>
+                              <li><a href="ForSale.html">Taxi</a></li>
+                              <li><a href="ForSale.html">Buses</a></li>
+                              <li><a href="ForSale.html">Cars</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                        <div class="col-12">
+                          <div class="card-body">
+                            <a href="#" class="card-link ml-4">
+                              Electronics
+                            </a>
+                            <ul class="mt-3">
+                              <li><a href="ForSale.html">Computer, Laptop</a></li>
+                              <li><a href="ForSale.html">Smartphones</a></li>
+                              <li><a href="ForSale.html">TV set</a></li>
+                              <li><a href="ForSale.html">Smart Gadgets</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="tab-pane fade" id="forRent">
+                    <section>
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="card-body">
+                            <a href="#" class="card-link ml-4">
+                              Buildings
+                            </a>
+                            <ul class="mt-3">
+                              <li><a href="ForRent.html">Flat, Home</a></li>
+                              <li><a href="ForRent.html">Office</a></li>
+                              <li><a href="ForRent.html">Dacha</a></li>
+                              <li><a href="ForRent.html">Courtyard</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                        <div class="col-12">
+                          <div class="card-body">
+                            <a href="#" class="card-link ml-4">
+                              Transport
+                            </a>
+                            <ul class="mt-3">
+                              <li><a href="ForRent.html">Trucks</a></li>
+                              <li><a href="ForRent.html">Taxi</a></li>
+                              <li><a href="ForRent.html">Buses</a></li>
+                              <li><a href="ForRent.html">Cars</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                        <div class="col-12">
+                          <div class="card-body">
+                            <a href="#" class="card-link ml-4">
+                              Electronics
+                            </a>
+                            <ul class="mt-3">
+                              <li><a href="ForRent.html">Computer, Laptop</a></li>
+                              <li><a href="ForRent.html">Smartphones</a></li>
+                              <li><a href="ForRent.html">TV set</a></li>
+                              <li><a href="ForRent.html">Smart Gadgets</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+    
+         
+             <a class="location" href="#"  id="location" data-toggle="modal" data-target="#myModal" ><i class="fas fa-map-marker-alt"></i> Select a region</a>
+             
+      </div>  
+    </nav>
+   <!-- MODAL -->
+<div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.50263478703!2d69.13928333030633!3d41.2825125467678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1643385169195!5m2!1sen!2s" width="100%" height="561px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="change-category  d-flex">
+  <div class="dropdown">
+      <img src="assets/icon/menu.svg" class="ml-3" alt="Error">
+      <button type="button" class="btn" data-toggle="dropdown">ALL CATEGORIES</button>
+
+      <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">CARS</a>
+          <a href="#" class="dropdown-item">HOMES</a>
+          <a href="#" class="dropdown-item">ELECTRONIC DEVICES</a>
+      </div>
+
+      <img src="assets/icon/dropdown-toggle.svg" data-toggle="dropdown" class="dropdown-toggle" alt="Error">
+  </div>
+  <div class="navigation d-flex">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="ForSale.html">FOR SALE</a></li>
+        <li class="nav-item"><a class="nav-link" href="ForRent.html">FOR RENT</a></li>
+        <li class="nav-item"><a class="nav-link" href="help.html">HELP</a></li>
+
+      </ul>
+  </div>
+  <div class="submiter">
+      <button type="button" class="btn" onclick="document.location='addProduct.html'">SUBMIT YOUR AD</button>
+  </div>
+</div>
+
+
+   
+</header> 
+
+<!--MAIN -->
+
+<main class="main">
+    <!--    breadcrumb codes  -->
+    <div class="container-fluid">
+        <div class="main-breadcrumb">
+            <ul class="breadcrumb">
+                <li><a href="index.html" class="home disabled">Home</a></li>
+                <li>Help</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HELP && FAQ codes -->
+
+    <div class="help-faq">
+        <div class="container-fluid">
+            <div class="help-title">
+                <h1>HELP & FAQ</h1>
+            </div>
+            <div class="row" id="row1">
+
+            <div class="col-6">
+                <button class="accordion active" data-toggle="collapse" data-target="#demo">How to recover/change the password for
+                    an UNISHOP profile on a computer?
+                </button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo1">How to recover/change the password for
+                    an UNISHOP profile on a computer?
+                </button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo2">How to recover/change the password for
+                    an UNISHOP profile on a computer?
+                </button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo3">How do I know why my ad has been
+                    deleted?
+                </button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo4">How much does an ad placement package
+                    cost?
+                </button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo5">Terms of use of additional advertising
+                    services
+                </button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo6">How do I edit an ad?</button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo7">How to add photos to an ad?</button>
+                <div class="line"></div>
+                <button class="accordion" data-toggle="collapse" data-target="#demo8">How to recover/change the password for
+                    an UNISHOP profile on a computer?
+                </button>
+            </div>
+
+            <div class="col-5"><div class="collapse show" id="demo">Open the site UNISHOP.uz
+                Click the "Profile" button on the bottom right side.
+                Next, click on the "Login or create a profile" button.
+                Next, you need to click on the "Forgot Password" button. At the end of the publication period, 3-5 days
+                before the end, you may be sent a service letter to the e-mail address that was registered as a login on
+                the UNISHOP.uz service with a notification of the expiration of the announcement publication period.
+
+                If your product or service is relevant after 30 days of publication, then at the end of the publication
+                period, the ad will be transferred to the status - Inactive, regardless of the promotion / advertising
+                services applied Change roles! Before you start writing a description, imagine yourself for a moment as
+                a potential buyer of your own product and determine: what information about the product should be
+                presented first, what should be mentioned in the middle part of the ad, and what should the final part
+                of your advertising message look like.
+            </div>
+                <div class="collapse" id="demo1">section 2</div>
+                <div class="collapse" id="demo2">section 3</div>
+                <div class="collapse" id="demo3">section 4</div>
+                <div class="collapse" id="demo4">section 5</div>
+                <div class="collapse" id="demo5">section 6</div>
+                <div class="collapse" id="demo6">section 7</div>
+                <div class="collapse" id="demo7">section 8</div>
+                <div class="collapse" id="demo8">section 9</div>
+            </div>
+            </div>
+           <div class="row" id="row2">
+                <div class="col-sm-12 d-md-none"
+                >
+                    <div>
+                    <button class="accordion active" data-toggle="collapse" data-target="#accord">How to recover/change the password for
+                        an UNISHOP profile on a computer?
+                    </button>
+                    <div class="collapse show" id="accord">Open the site UNISHOP.uz
+                        Click the "Profile" button on the bottom right side.
+                        Next, click on the "Login or create a profile" button.
+                        Next, you need to click on the "Forgot Password" button. At the end of the publication period, 3-5 days
+                        before the end, you may be sent a service letter to the e-mail address that was registered as a login on
+                        the UNISHOP.uz service with a notification of the expiration of the announcement publication period.
+
+                        If your product or service is relevant after 30 days of publication, then at the end of the publication
+                        period, the ad will be transferred to the status - Inactive, regardless of the promotion / advertising
+                        services applied Change roles! Before you start writing a description, imagine yourself for a moment as
+                        a potential buyer of your own product and determine: what information about the product should be
+                        presented first, what should be mentioned in the middle part of the ad, and what should the final part
+                        of your advertising message look like.
+                    </div>
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord1">How to recover/change the password foran UNISHOP profile on a computer?
+                        </button>
+                        <div class="collapse" id="accord1">section 2</div>
+
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord2">How to recover/change the password for
+                            an UNISHOP profile on a computer?
+                        </button>
+                        <div class="collapse" id="accord2">section 3</div>
+
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord3">How to recover/change the password for an UNISHOP profile on a computer?
+
+                        </button>
+                        <div class="collapse" id="accord3">section 4</div>
+
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord4">How to recover/change the password for an UNISHOP profile on a computer?
+                        </button>
+                        <div class="collapse" id="accord4">section 5</div>
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord5">How to recover/change the password for an UNISHOP profile on a computer?
+
+                        </button>
+                        <div class="collapse" id="accord5">section 6</div>
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord6">How to recover/change the password for an UNISHOP profile on a computer?</button>
+                        <div class="collapse" id="accord6">section 7</div>
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord7">How to recover/change the password for an UNISHOP profile on a computer?</button>
+                        <div class="collapse" id="accord7">section 8</div>
+                    </div>
+                    <div>
+                        <button class="accordion" data-toggle="collapse" data-target="#accord8">How to recover/change the password for an UNISHOP profile on a computer?
+                        </button>
+                        <div class="collapse" id="accord8">section 9</div>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+
+    </div>
+</main>
+
+<!--FOOTER codes-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 offset-sm-0 offset-md-2 offset-lg-2 offset-xl-2">
+        <h1 class="footer-title">SIGN UP TO NEWSLETTER</h1>
+        <p class="footer-text">Make Sure That You Never Miss Our Interesting News And Exclusive Promotion. No Spam, Ever</p>
+      <div class="input-group">
+        <input type="text" class="email form-control" placeholder="Your Email addres">
+        <div class="input-group-append">
+         <button class="btn text-white" type="submit">Subscribe</button> 
+       </div>
+      </div>
+       </div>
+    </div>
+ </div> 
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 offset-sm offset-md-2 offset-lg-2 offset-xl-2">
+         <div class="row">
+           <div class="footer-col-one">
+             <ul>
+               <h4>Help</h4>
+               <li><a href="help.html">FAQs</a></li>
+               <li><a href="ForRent.html">Advertising</a></li>
+               <li><a href="#">Map of regions</a></li>
+             </ul>
+           </div> 
+           <div class="footer-col-two">
+             <ul>
+               <h4>Security</h4>
+               <li><a href="help.html">How to buy and sell?</a></li>
+               <li><a href="help.html">Rules of security</a></li>
+               <li><a href="help.html">Privacy Policy</a></li>
+             </ul>
+           </div>
+           <div class="footer-col-three">
+             <ul>
+               <h4>About</h4>
+               <li><a href="help.html">Partners</a></li>
+               <li><a href="help.html">Term of use</a></li>
+               <li><a href="help.html">About Unishop</a></li>
+             </ul>
+           </div>
+          
+         </div>
+       </div>
+     </div>
+   </div>
+ </footer>
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/help.js"></script>
+</body>
+</html>
